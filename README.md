@@ -1,6 +1,4 @@
-# KTRZ Font Family
-
-## KTRZ
+# KTRZ Font
 
 ![KTRZ](https://user-images.githubusercontent.com/5457539/71777137-36185c00-2fdf-11ea-95d2-4348cf3f36ff.png)
 
