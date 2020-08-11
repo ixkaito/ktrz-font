@@ -21,7 +21,7 @@ layout: home
   </div>
 
   <p class="m-0 pt-05" markdown="1">
-    <a class="button" href="https://example.com/" target="_blank" rel="noopener">Download</a>
+    <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Download</a>
   </p>
 
 </main>

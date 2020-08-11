@@ -14,3 +14,7 @@
 @function column($number: 1) {
 	@return calc(100vw / var(--columns) * #{$number});
 }
+
+@function fz($vw: 1) {
+	@return calc(6 / var(--columns) * #{$vw});
+}

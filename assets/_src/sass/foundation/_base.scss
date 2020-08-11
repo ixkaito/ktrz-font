@@ -33,7 +33,7 @@ body {
 h1 {
 	align-items: end;
 	display: grid;
-	font-size: calc(6 / var(--columns) * 4vw);
+	font-size: fz(4vw);
 	height: column(1);
 	line-height: 0.65;
 	margin: 0;
@@ -61,6 +61,7 @@ strong {
 	background: #000;
 	color: #fff;
 	display: inline-grid;
+	font-size: fz(2vw);
 	font-weight: 700;
 	height: column(0.5);
 	place-items: center;
