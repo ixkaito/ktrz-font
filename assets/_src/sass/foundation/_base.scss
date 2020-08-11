@@ -1,1 +1,43 @@
 @use '../global' as *;
+
+:root {
+	--columns: 2;
+
+	@media screen and (min-width: 480px) {
+		--columns: 3;
+	}
+
+	@media screen and (min-width: 640px) {
+		--columns: 4;
+	}
+
+	@media screen and (min-width: 800px) {
+		--columns: 5;
+	}
+
+	@media screen and (min-width: 960px) {
+		--columns: 6;
+	}
+}
+
+body {
+	@include font-smoothing;
+	background-color: #fff;
+	background-image:
+		linear-gradient(to left,
+		#ddd,
+		#ddd 1px,
+		transparent 1px,
+		transparent),
+		linear-gradient(to bottom,
+		#ddd,
+		#ddd 1px,
+		transparent 1px,
+		transparent);
+	background-position: top left;
+	background-size: calc(100vw / var(--columns)) calc(100vw / var(--columns));
+	color: #000;
+	font-family: $prompt;
+	margin: 0;
+	min-height: 100vw;
+}

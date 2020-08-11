@@ -1,0 +1,40 @@
+@use '../global' as *;
+
+.hero {
+	display: grid;
+	height: calc(100vw / var(--columns) * 4);
+	overflow: hidden;
+	position: relative;
+
+	&::before {
+		bottom: 0;
+		content: attr(data-lorem);
+		display: block;
+		font-family: $ktrz;
+		font-size: calc(100vw / var(--columns));
+		left: 0;
+		line-height: 1;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		width: 100vw;
+		word-break: break-all;
+	}
+
+	h1 {
+		align-self: center;
+		color: #fff;
+		font-size: calc(6 / var(--columns) * 8vw);
+		font-weight: 700;
+		left: 100vw;
+		line-height: 0.7;
+		margin: 0;
+		margin-left: calc(-100vw / var(--columns) * 2 - 0.045em);
+		mix-blend-mode: difference;
+		padding-top: 0.03em;
+		position: relative;
+		text-transform: uppercase;
+		width: 4em;
+		z-index: 9;
+	}
+}

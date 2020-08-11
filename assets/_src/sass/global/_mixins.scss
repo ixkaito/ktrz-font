@@ -1,1 +1,12 @@
 @use 'variables' as *;
+
+
+@mixin font-smoothing($value: null) {
+	@if $value {
+		-webkit-font-smoothing: $value;
+		-moz-osx-font-smoothing: $value;
+	} @else {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}

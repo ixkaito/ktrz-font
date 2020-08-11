@@ -58,3 +58,4 @@ exclude:
   - vendor/ruby/
   - webpack.config.js
   - yarn.lock
+  - assets/_src/
