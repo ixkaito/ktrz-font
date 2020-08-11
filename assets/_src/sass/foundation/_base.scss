@@ -59,13 +59,43 @@ strong {
 
 .button {
 	background: #000;
+	border: 2px solid #000;
 	color: #fff;
 	display: inline-grid;
+	font-family: $prompt;
+	font-size: column(0.25);
 	font-size: fz(2vw);
 	font-weight: 700;
 	height: column(0.5);
+	line-height: 1;
+	overflow: hidden;
 	place-items: center;
+	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
 	width: column(1);
+	word-break: break-all;
+
+	&::after {
+		background-image:
+			linear-gradient(to right,
+			#000,
+			#000 50%,
+			#fff 50%,
+			#fff);
+		background-size: 200% 100%;
+		bottom: 0;
+		content: '';
+		display: block;
+		left: 0;
+		mix-blend-mode: difference;
+		position: absolute;
+		right: 0;
+		top: 0;
+		transition: background-position 0.3s $ease-out-cubic;
+	}
+
+	&:hover::after {
+		background-position: 0100% 0;
+	}
 }
