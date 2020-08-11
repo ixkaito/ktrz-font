@@ -2,7 +2,7 @@
 
 .hero {
 	display: grid;
-	height: calc(100vw / var(--columns) * 4);
+	height: column(4);
 	overflow: hidden;
 	position: relative;
 
@@ -11,13 +11,13 @@
 		content: attr(data-lorem);
 		display: block;
 		font-family: $ktrz;
-		font-size: calc(100vw / var(--columns));
+		font-size: column(1);
 		left: 0;
 		line-height: 1;
 		overflow: hidden;
 		position: absolute;
+		right: -0.5em;
 		top: 0;
-		width: 100vw;
 		word-break: break-all;
 	}
 
@@ -26,6 +26,7 @@
 		color: #fff;
 		font-size: calc(6 / var(--columns) * 8vw);
 		font-weight: 700;
+		height: unset;
 		left: 100vw;
 		line-height: 0.7;
 		margin: 0;

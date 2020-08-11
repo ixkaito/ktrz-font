@@ -10,3 +10,7 @@
 		-moz-osx-font-smoothing: grayscale;
 	}
 }
+
+@function column($number: 1) {
+	@return calc(100vw / var(--columns) * #{$number});
+}

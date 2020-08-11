@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+.m-0 {
+	margin: 0;
+}
+
+.pt-05 {
+	padding-top: calc(100vw / var(--columns) / 2);
+}
+
+.row-2 {
+	height: calc(100vw / var(--columns) * 2);
+}

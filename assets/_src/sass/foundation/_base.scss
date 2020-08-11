@@ -1,23 +1,9 @@
 @use '../global' as *;
 
-:root {
-	--columns: 2;
-
-	@media screen and (min-width: 480px) {
-		--columns: 3;
-	}
-
-	@media screen and (min-width: 640px) {
-		--columns: 4;
-	}
-
-	@media screen and (min-width: 800px) {
-		--columns: 5;
-	}
-
-	@media screen and (min-width: 960px) {
-		--columns: 6;
-	}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
 body {
@@ -35,9 +21,50 @@ body {
 		transparent 1px,
 		transparent);
 	background-position: top left;
-	background-size: calc(100vw / var(--columns)) calc(100vw / var(--columns));
+	background-size: column(1) column(1);
 	color: #000;
 	font-family: $prompt;
+	font-weight: 300;
+	line-height: 1.5;
 	margin: 0;
 	min-height: 100vw;
+}
+
+h1 {
+	align-items: end;
+	display: grid;
+	font-size: calc(6 / var(--columns) * 4vw);
+	height: column(1);
+	line-height: 0.65;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+p {
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+strong {
+	font-weight: 600;
+}
+
+.button {
+	background: #000;
+	color: #fff;
+	display: inline-grid;
+	font-weight: 700;
+	height: column(0.5);
+	place-items: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: column(1);
 }

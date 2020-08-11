@@ -1,2 +1,22 @@
 $prompt: 'Prompt', sans-serif;
 $ktrz: 'KTRZ', sans-serif;
+
+:root {
+	--columns: 2;
+
+	@media screen and (min-width: 480px) {
+		--columns: 3;
+	}
+
+	@media screen and (min-width: 640px) {
+		--columns: 4;
+	}
+
+	@media screen and (min-width: 800px) {
+		--columns: 5;
+	}
+
+	@media screen and (min-width: 960px) {
+		--columns: 6;
+	}
+}
