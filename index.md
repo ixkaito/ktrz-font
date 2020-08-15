@@ -28,4 +28,10 @@ layout: home
 
 </div>
 
+<div class="mt-1" markdown="1">
+
+## KTRZ Font Regulations
+
+</div>
+
 </main>

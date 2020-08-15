@@ -30,14 +30,25 @@ body {
 	min-height: 100vw;
 }
 
-h1 {
+h1,
+h2 {
 	align-items: end;
 	display: grid;
-	font-size: fz(4vw);
+	font-weight: 700;
 	height: column(1);
 	line-height: 0.65;
 	margin: 0;
+}
+
+h1 {
+	font-size: fz(4.2vw);
 	text-transform: uppercase;
+}
+
+h2 {
+	font-size: fz(2.8vw);
+	transform: rotate(90deg) translateX(column(-1));
+	transform-origin: left bottom;
 }
 
 p {
