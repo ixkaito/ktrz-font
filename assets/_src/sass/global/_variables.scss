@@ -8,19 +8,9 @@ $ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
 :root {
 	--columns: 2;
 
-	@media screen and (min-width: 480px) {
-		--columns: 3;
-	}
-
-	@media screen and (min-width: 640px) {
-		--columns: 4;
-	}
-
-	@media screen and (min-width: 800px) {
-		--columns: 5;
-	}
-
-	@media screen and (min-width: 960px) {
-		--columns: 6;
+	@for $num from 3 through 6 {
+		@media (min-width: #{160px * $num}) {
+			--columns: #{$num};
+		}
 	}
 }

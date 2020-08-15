@@ -1,7 +1,12 @@
 @use 'variables' as *;
+@use 'mixins' as *;
 
 .m-0 {
 	margin: 0;
+}
+
+.max-w-2 {
+	max-width: column(2);
 }
 
 .pt-05 {
@@ -10,4 +15,12 @@
 
 .row-2 {
 	height: calc(100vw / var(--columns) * 2);
+}
+
+.col4\:grid {
+	@media (min-width: calc(100vw / var(--columns) * 4)) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
 }
