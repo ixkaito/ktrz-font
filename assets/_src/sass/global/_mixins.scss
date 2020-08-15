@@ -11,8 +11,8 @@
 	}
 }
 
-@function column($number: 1) {
-	@return calc(100vw / var(--columns) * #{$number});
+@function column($num: 1) {
+	@return calc(100vw / var(--columns) * #{$num});
 }
 
 @function fz($vw: 1) {
