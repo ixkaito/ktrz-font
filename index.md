@@ -12,7 +12,7 @@ layout: home
 
 # KTRZ Font
 
-<div class="col4:grid col4:grid-flow-col col4:gap-1 col4:justify-center" markdown="1">
+<div class="col4:grid col4:grid-flow-col col4:gap-1 col4:justify-center">
 
   <div class="max-w-2 h-2 pt-05" markdown="1">
 
@@ -22,34 +22,49 @@ layout: home
 
   </div>
 
-  <p class="m-0 pt-05" markdown="1">
+  <p class="m-0 pt-05">
     <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Download</a>
   </p>
 
 </div>
 
-<div class="mt-1 flex" markdown="1">
+<div class="mt-1 col8:mt-0 flex" markdown="1">
 
 ## KTRZ Font Regulations
 
 <div class="col4:grid col4:grid-cols-2 col4:col-gap-1">
   <figure class="w-1 h-2">
-    <img src="{{ '/assets/images/letter-body.svg' | relative_url }}" alt="Letter body">
+    <img src="{{ '/assets/images/letter-body.svg' | relative_url }}"
+      alt="Letter body"
+      style="width: 100%;"
+    >
     <figcaption>Letter bodies must be squares.</figcaption>
   </figure>
 
   <figure class="w-1 h-2">
-    <img src="{{ '/assets/images/points.svg' | relative_url }}" style="margin: -1.667%; max-width: 103.33%;"  alt="9 points">
+    <img src="{{ '/assets/images/points.svg' | relative_url }}"
+      alt="9 points"
+      class="max-w-none"
+      style="margin: -1.667%; width: 103.33%;"
+    >
     <figcaption>Apexes must be on these 9 points.</figcaption>
   </figure>
 
   <figure class="w-1 h-2">
-    <img src="{{ '/assets/images/outlines.svg' | relative_url }}" style="margin: 0 -0.5px; max-width: calc(100% + 1px);" alt="Outlines">
+    <img src="{{ '/assets/images/outlines.svg' | relative_url }}"
+      alt="Outlines"
+      class="max-w-none"
+      style="margin: 0 -1px; width: calc(100% + 2px);"
+    >
     <figcaption>Outlines must be on these guides.</figcaption>
   </figure>
 
   <figure class="w-1 h-2">
-    <img src="{{ '/assets/images/outlines-alt.svg' | relative_url }}" style="margin: 0 -0.5px; max-width: calc(100% + 1px);" alt="Outlines of alternates">
+    <img src="{{ '/assets/images/outlines-alt.svg' | relative_url }}"
+      alt="Outlines of alternates"
+      class="max-w-none"
+      style="margin: 0 -1px; width: calc(100% + 2px);"
+    >
     <figcaption>Outlines of alternates must be on these guides.</figcaption>
   </figure>
 </div>
