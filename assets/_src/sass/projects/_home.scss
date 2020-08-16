@@ -2,7 +2,7 @@
 
 .hero {
 	display: grid;
-	height: column(4);
+	height: columns(4);
 	overflow: hidden;
 	position: relative;
 
@@ -11,7 +11,7 @@
 		content: attr(data-lorem);
 		display: block;
 		font-family: $ktrz;
-		font-size: column(1);
+		font-size: columns(1);
 		left: 0;
 		line-height: 1;
 		overflow: hidden;

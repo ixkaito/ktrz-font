@@ -32,6 +32,26 @@ layout: home
 
 ## KTRZ Font Regulations
 
+<figure class="w-1">
+  <img src="https://via.placeholder.com/240" alt="Letter body">
+  <figcaption class="h-1">Letter bodies must be squares.</figcaption>
+</figure>
+
+<figure class="w-1">
+  <img src="https://via.placeholder.com/240" alt="9 points">
+  <figcaption class="h-1">Apexes must be on these 9 points.</figcaption>
+</figure>
+
+<figure class="w-1">
+  <img src="https://via.placeholder.com/240" alt="Outlines">
+  <figcaption class="h-1">Outlines must be on these guides.</figcaption>
+</figure>
+
+<figure class="w-1">
+  <img src="https://via.placeholder.com/240" alt="Outlines of alternates">
+  <figcaption class="h-1">Outlines of alternates must be on these guides.</figcaption>
+</figure>
+
 </div>
 
 </main>

@@ -21,7 +21,7 @@ body {
 		transparent 1px,
 		transparent);
 	background-position: top left;
-	background-size: column(1) column(1);
+	background-size: columns(1) columns(1);
 	color: #000;
 	font-family: $prompt;
 	font-weight: 300;
@@ -35,7 +35,7 @@ h2 {
 	align-items: end;
 	display: grid;
 	font-weight: 700;
-	height: column(1);
+	height: columns(1);
 	line-height: 0.65;
 	margin: 0;
 }
@@ -47,7 +47,7 @@ h1 {
 
 h2 {
 	font-size: fz(2.8vw);
-	transform: rotate(90deg) translateX(column(-1));
+	transform: rotate(90deg) translateX(columns(-1));
 	transform-origin: left bottom;
 }
 
@@ -64,8 +64,22 @@ p {
 	}
 }
 
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+}
+
 strong {
 	font-weight: 600;
+}
+
+figure {
+	margin: 0;
+}
+
+figcaption {
+	padding-top: columns(0.1);
 }
 
 .main {
@@ -78,17 +92,17 @@ strong {
 	color: #fff;
 	display: inline-grid;
 	font-family: $prompt;
-	font-size: column(0.25);
+	font-size: columns(0.25);
 	font-size: fz(2vw);
 	font-weight: 700;
-	height: column(0.5);
+	height: columns(0.5);
 	line-height: 1;
 	overflow: hidden;
 	place-items: center;
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
-	width: column(1);
+	width: columns(1);
 	word-break: break-all;
 
 	&::after {
