@@ -5,6 +5,18 @@
 	display: flex;
 }
 
+.flex-row-reverse {
+	flex-direction: row-reverse;
+}
+
+.grid {
+	display: grid;
+}
+
+.grid-cols-8 {
+	grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
 .h-1 {
 	height: columns(1);
 }
