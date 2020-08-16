@@ -35,20 +35,20 @@ h2 {
 	align-items: end;
 	display: grid;
 	font-weight: 700;
-	height: columns(1);
 	line-height: 0.65;
 	margin: 0;
 }
 
 h1 {
 	font-size: fz(4.2vw);
+	height: columns(1);
 	text-transform: uppercase;
 }
 
 h2 {
 	font-size: fz(2.8vw);
-	transform: rotate(90deg) translateX(columns(-1));
-	transform-origin: left bottom;
+	width: columns(1);
+	writing-mode: vertical-rl;
 }
 
 p {

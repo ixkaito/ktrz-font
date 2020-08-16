@@ -29,6 +29,18 @@
 	width: columns(1);
 }
 
+.white-space-nowrap {
+	white-space: nowrap;
+}
+
+.grid {
+	display: grid;
+}
+
+.grid-flow-col {
+	grid-auto-flow: column;
+}
+
 @media (min-width: #{160px * 4}) {
 	.col4 {
 		&\:justify-center {
