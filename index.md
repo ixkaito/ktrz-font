@@ -28,29 +28,29 @@ layout: home
 
 </div>
 
-<div class="mt-1 grid grid-flow-col" markdown="1">
+<div class="mt-1 flex" markdown="1">
 
 ## KTRZ Font Regulations
 
-<div class="regulations">
-  <figure class="w-1">
+<div class="col4:grid col4:grid-cols-2 col4:col-gap-1">
+  <figure class="w-1 h-2">
     <img src="{{ '/assets/images/letter-body.svg' | relative_url }}" alt="Letter body">
-    <figcaption class="h-1">Letter bodies must be squares.</figcaption>
+    <figcaption>Letter bodies must be squares.</figcaption>
   </figure>
 
-  <figure class="w-1">
-    <img src="{{ '/assets/images/letter-body.svg' | relative_url }}" alt="9 points">
-    <figcaption class="h-1">Apexes must be on these 9 points.</figcaption>
+  <figure class="w-1 h-2">
+    <img src="{{ '/assets/images/points.svg' | relative_url }}" style="margin: -1.667%; max-width: 103.33%;"  alt="9 points">
+    <figcaption>Apexes must be on these 9 points.</figcaption>
   </figure>
 
-  <figure class="w-1">
-    <img src="{{ '/assets/images/letter-body.svg' | relative_url }}" alt="Outlines">
-    <figcaption class="h-1">Outlines must be on these guides.</figcaption>
+  <figure class="w-1 h-2">
+    <img src="{{ '/assets/images/outlines.svg' | relative_url }}" style="margin: 0 -0.5px; max-width: calc(100% + 1px);" alt="Outlines">
+    <figcaption>Outlines must be on these guides.</figcaption>
   </figure>
 
-  <figure class="w-1">
-    <img src="{{ '/assets/images/letter-body.svg' | relative_url }}" alt="Outlines of alternates">
-    <figcaption class="h-1">Outlines of alternates must be on these guides.</figcaption>
+  <figure class="w-1 h-2">
+    <img src="{{ '/assets/images/outlines-alt.svg' | relative_url }}" style="margin: 0 -0.5px; max-width: calc(100% + 1px);" alt="Outlines of alternates">
+    <figcaption>Outlines of alternates must be on these guides.</figcaption>
   </figure>
 </div>
 
