@@ -32,7 +32,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
 	align-items: end;
 	display: grid;
 	font-weight: 700;
@@ -49,6 +50,11 @@ h1 {
 h2 {
 	font-size: fz(2.8vw);
 	width: columns(1);
+	writing-mode: vertical-rl;
+}
+
+h3 {
+	font-size: fz(2.1vw);
 	writing-mode: vertical-rl;
 }
 

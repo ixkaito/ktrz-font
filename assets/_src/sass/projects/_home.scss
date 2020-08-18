@@ -39,3 +39,31 @@
 		z-index: 9;
 	}
 }
+
+.glyphs {
+	line-height: 1;
+	padding-bottom: columns(0.25);
+	row-gap: columns(0.25);
+
+	// :first-child {
+	// 	@media (min-width: #{160px * 3}) {
+	// 		grid-column-start: 9;
+	// 	}
+
+	// 	@media (min-width: #{160px * 4}) {
+	// 		grid-column-start: 1;
+	// 	}
+	// }
+
+	span {
+		font-weight: 500;
+		text-indent: 0.5em;
+	}
+
+	.font-ktrz,
+	.font-ktrz-alt {
+		font-size: columns(0.25);
+		font-weight: normal;
+		text-indent: 0;
+	}
+}
