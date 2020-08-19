@@ -207,7 +207,7 @@ layout: home
   <img src="{{ 'assets/images/typography.svg' | relative_url }}" alt="Typography">
 </figure>
 
-<figure>
+<figure class="mt-05">
   <img src="{{ 'assets/images/2020.svg' | relative_url }}" alt="Typography">
 </figure>
 

@@ -45,16 +45,6 @@
 	padding-bottom: columns(0.25);
 	row-gap: columns(0.25);
 
-	// :first-child {
-	// 	@media (min-width: #{160px * 3}) {
-	// 		grid-column-start: 9;
-	// 	}
-
-	// 	@media (min-width: #{160px * 4}) {
-	// 		grid-column-start: 1;
-	// 	}
-	// }
-
 	span {
 		font-weight: 500;
 		text-indent: 0.5em;
