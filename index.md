@@ -201,4 +201,14 @@ layout: home
 
 </div>
 
+<h2 class="mt-05 col4:mt-1 h-1">Use Cases</h2>
+
+<figure>
+  <img src="{{ 'assets/images/typography.svg' | relative_url }}" alt="Typography">
+</figure>
+
+<figure>
+  <img src="{{ 'assets/images/2020.svg' | relative_url }}" alt="Typography">
+</figure>
+
 </main>

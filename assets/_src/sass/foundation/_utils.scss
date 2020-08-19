@@ -145,6 +145,10 @@
 		&\:justify-center {
 			justify-content: center;
 		}
+
+		&\:mt-1 {
+			margin-top: columns(1);
+		}
 	}
 }
 
