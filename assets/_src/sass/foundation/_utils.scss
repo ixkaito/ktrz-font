@@ -1,5 +1,4 @@
-@use 'variables' as *;
-@use 'mixins' as *;
+@use '../global' as *;
 
 .flex {
 	display: flex;
