@@ -10,11 +10,11 @@ layout: home
 
 <main class="main col5:pr-1 col6:pl-1" markdown="1">
 
-# KTRZ Font
+<h1 class="col5:ml-1 col6:ml-0">KTRZ Font</h1>
 
-<div class="col4:grid col4:grid-flow-col col4:gap-1 col4:justify-center">
+<div class="col4:grid col4:grid-flow-col col4:gap-1 col4:justify-center col5:ml-1 col6:ml-0 col5:-mr-1 col6:mr-0">
 
-  <div class="max-w-2 h-2 pt-05" markdown="1">
+  <div class="max-w-3 h-2 pt-05" markdown="1">
 
   KTRZ is a free minimal geometric font family. It has 2 styles. The primary style consists of only straight lines and angles of 45 and 90 degrees. The alternative style consists of only straight lines, angles of 45 and 90 degrees and perfect circles. Great for typography, symbols, decorations, backgrounds, minimal designs and fancy stuff.
 
@@ -71,11 +71,11 @@ layout: home
 
 </div>
 
-<div class="flex-row-reverse col5:flex col5:-mr-1 col5:mt-1 col8:mt-0">
+<div class="flex-row-reverse col5:ml-05 col6:ml-0 col5:-mr-1 col6:flex col6:mt-1 col8:mt-0">
 
-  <h2 class="writing-mode-h-tb h-1 col5:writing-mode-v-rl w-auto col5:w-1 text-right col5:text-left">Glyphs</h2>
+  <h2 class="writing-mode-h-tb h-1 col6:writing-mode-v-rl w-auto col6:w-1 text-right col6:text-left">Glyphs</h2>
 
-  <div class="glyphs grid grid-cols-8 col3:grid-cols-12 col4:grid-cols-16 items-end mt-05 col5:mt-0">
+  <div class="glyphs grid grid-cols-8 col3:grid-cols-12 col4:grid-cols-16 items-end col5:mr-05 col6:mr-0 mt-05 col6:mt-0">
     <span class="font-ktrz">A</span><span>A</span>
     <span class="font-ktrz">B</span><span>B</span>
     <span class="font-ktrz">C</span><span>C</span>
@@ -136,11 +136,11 @@ layout: home
 
 </div>
 
-<div class="flex-row-reverse col5:flex col5:-mr-1 col5:mt-05">
+<div class="flex-row-reverse col5:ml-05 col6:ml-0 col5:-mr-1 col6:flex col6:mt-05">
 
-  <h3 class="writing-mode-h-tb h-05 col4:h-1 col5:writing-mode-v-rl col5:w-1 col5:h-auto text-right col5:text-left">KTRZ Alternates</h3>
+  <h3 class="writing-mode-h-tb h-05 col4:h-1 col6:writing-mode-v-rl col6:w-1 col6:h-auto text-right col6:text-left">KTRZ Alternates</h3>
 
-  <div class="glyphs grid grid-cols-8 col3:grid-cols-12 col4:grid-cols-16 items-end mt-05 col5:mt-0">
+  <div class="glyphs grid grid-cols-8 col3:grid-cols-12 col4:grid-cols-16 items-end mt-05 col5:mr-05 col6:mr-0 col6:mt-0">
     <span class="font-ktrz-alt">A</span><span>A</span>
     <span class="font-ktrz-alt">B</span><span>B</span>
     <span class="font-ktrz-alt">C</span><span>C</span>

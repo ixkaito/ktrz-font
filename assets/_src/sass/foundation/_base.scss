@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 body {
 	@include font-smoothing;
 	background-color: #fff;
