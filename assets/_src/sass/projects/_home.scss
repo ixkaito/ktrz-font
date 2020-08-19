@@ -57,3 +57,37 @@
 		text-indent: 0;
 	}
 }
+
+.typography {
+	font-family: $ktrz;
+	font-size: columns(0.5);
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	margin-right: -0.5em;
+	position: relative;
+	text-indent: columns(1);
+	text-transform: uppercase;
+	word-break: break-all;
+
+	@include cols(4) {
+		font-size: columns(1);
+		text-indent: columns(2);
+	}
+
+	&::before {
+		content: 'Typo\Agra\Aphy';
+		font-family: $prompt;
+		font-size: columns(0.26);
+		font-weight: 800;
+		left: 0;
+		line-height: 0.65;
+		position: absolute;
+		text-indent: 0;
+		white-space: pre;
+
+		@include cols(4) {
+			font-size: columns(0.52);
+		}
+	}
+}

@@ -203,9 +203,7 @@ layout: home
 
 <h2 class="mt-05 col4:mt-1 h-1">Use Cases</h2>
 
-<figure>
-  <img src="{{ 'assets/images/typography.svg' | relative_url }}" alt="Typography">
-</figure>
+<p class="typography">Typography</p>
 
 <figure class="mt-05">
   <img src="{{ 'assets/images/2020.svg' | relative_url }}" alt="Typography">
