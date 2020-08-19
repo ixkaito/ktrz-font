@@ -92,16 +92,16 @@
 	writing-mode: horizontal-tb;
 }
 
-@media (min-width: #{160px * 3}) {
-	.col3 {
+@include cols(3) {
+	.cols3 {
 		&\:grid-cols-12 {
 			grid-template-columns: repeat(12, minmax(0, 1fr));
 		}
 	}
 }
 
-@media (min-width: #{160px * 4}) {
-	.col4 {
+@include cols(4) {
+	.cols4 {
 		&\:col-gap-1 {
 			column-gap: columns(1);
 		}
@@ -152,8 +152,8 @@
 	}
 }
 
-@media (min-width: #{160px * 5}) {
-	.col5 {
+@include cols(5) {
+	.cols5 {
 		&\:ml-05 {
 			margin-left: columns(0.5);
 		}
@@ -176,8 +176,8 @@
 	}
 }
 
-@media (min-width: #{160px * 6}) {
-	.col6 {
+@include cols(6) {
+	.cols6 {
 		&\:flex {
 			display: flex;
 		}
@@ -224,8 +224,8 @@
 	}
 }
 
-@media (min-width: #{160px * 8}) {
-	.col8 {
+@include cols(8) {
+	.cols8 {
 		&\:mt-0 {
 			margin-top: 0;
 		}
