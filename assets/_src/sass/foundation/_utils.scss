@@ -20,6 +20,10 @@
 	font-family: $ktrz-alt;
 }
 
+.gap-05 {
+	gap: columns(0.5);
+}
+
 .grid {
 	display: grid;
 }
@@ -56,6 +60,10 @@
 	line-height: 1;
 }
 
+.list-none {
+	list-style-type: none;
+}
+
 .m-0 {
 	margin: 0;
 }
@@ -76,6 +84,10 @@
 	max-width: columns(3);
 }
 
+.p-0 {
+	padding: 0;
+}
+
 .pt-05 {
 	padding-top: calc(100vw / var(--columns) / 2);
 }
@@ -94,6 +106,10 @@
 
 .w-auto {
 	width: auto;
+}
+
+.w-05 {
+	width: columns(0.5);
 }
 
 .w-1 {

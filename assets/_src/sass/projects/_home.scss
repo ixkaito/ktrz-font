@@ -123,3 +123,16 @@
 		}
 	}
 }
+
+.download-share {
+	> li {
+		display: flex;
+
+		&::before {
+			content: attr(data-icon);
+			font-family: $ktrz;
+			font-size: columns(0.5);
+			line-height: 1;
+		}
+	}
+}

@@ -207,8 +207,32 @@ layout: home
 
   <div>
     <p class="typography font-ktrz uppercase m-0 lh-1">Typography</p>
-    <p class="tokyo2020 font-ktrz uppercase flex justify-center m-0 mt-05 lh-1 cols4:mt-1"><span>20</span> <span>20</span></p>
+    <p class="tokyo2020 font-ktrz uppercase flex justify-center m-0 mt-1 lh-1 cols4:mt-1"><span>20</span> <span>20</span></p>
   </div>
+
+</div>
+
+<div class="flex mt-1" markdown="1">
+
+  <h2 class="w-05">Download &amp; Share</h2>
+
+  <ul class="download-share list-none m-0 p-0 grid gap-05 cols4:grid-cols-2">
+    <li data-icon="D">
+      <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Download</a>
+    </li>
+    <li data-icon="G">
+      <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">GitHub</a>
+    </li>
+    <li data-icon="F">
+      <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Share</a>
+    </li>
+    <li data-icon="T">
+      <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Tweet</a>
+    </li>
+    <li data-icon="T">
+      <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Follow</a>
+    </li>
+  </ul>
 
 </div>
 
