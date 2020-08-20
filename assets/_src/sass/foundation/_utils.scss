@@ -182,16 +182,8 @@
 			margin-left: columns(1);
 		}
 
-		&\:mr-05 {
-			margin-right: columns(0.5);
-		}
-
-		&\:-mr-1 {
-			margin-right: columns(-1);
-		}
-
-		&\:pr-1 {
-			padding-right: columns(1);
+		&\:pr-05 {
+			padding-right: columns(0.5);
 		}
 	}
 }
@@ -218,8 +210,8 @@
 			margin-left: columns(-1);
 		}
 
-		&\:mr-0 {
-			margin-right: 0;
+		&\:-mr-1 {
+			margin-right: columns(-1);
 		}
 
 		&\:mt-0 {
@@ -236,6 +228,14 @@
 
 		&\:pl-1 {
 			padding-left: columns(1);
+		}
+
+		&\:pr-0 {
+			padding-right: 0;
+		}
+
+		&\:pr-1 {
+			padding-right: columns(1);
 		}
 
 		&\:text-left {

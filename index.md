@@ -8,11 +8,11 @@ layout: home
 
 </header>
 
-<main class="main cols5:pr-1 cols6:pl-1" markdown="1">
+<main class="main cols6:pr-1 cols6:pl-1" markdown="1">
 
-<h1 class="col5:ml-1 cols6:ml-0">KTRZ Font</h1>
+<h1 class="cols5:ml-1 cols6:ml-0">KTRZ Font</h1>
 
-<div class="cols4:grid cols4:grid-flow-col cols4:gap-1 cols4:justify-center cols5:ml-1 cols6:ml-0 cols5:-mr-1 cols6:mr-0">
+<div class="cols4:grid cols4:grid-flow-col cols4:gap-1 cols4:justify-center cols5:ml-1 cols6:ml-0">
 
   <div class="max-w-3 h-2 pt-05" markdown="1">
 
@@ -71,11 +71,11 @@ layout: home
 
 </div>
 
-<div class="flex-row-reverse cols5:ml-05 cols6:ml-0 cols5:-mr-1 cols6:flex cols6:mt-1 cols8:mt-0">
+<div class="flex-row-reverse cols5:ml-05 cols6:ml-0 cols6:-mr-1 cols6:flex cols6:mt-1 cols8:mt-0">
 
   <h2 class="writing-mode-h-tb h-1 cols6:writing-mode-v-rl w-auto cols6:w-1 text-right cols6:text-left">Glyphs</h2>
 
-  <div class="glyphs lh-1 grid grid-cols-8 cols3:grid-cols-12 cols4:grid-cols-16 items-end cols5:mr-05 cols6:mr-0 mt-05 cols6:mt-0">
+  <div class="glyphs lh-1 grid grid-cols-8 cols3:grid-cols-12 cols4:grid-cols-16 items-end cols5:pr-05 cols6:pr-0 mt-05 cols6:mt-0">
     <span class="font-ktrz">A</span><span>A</span>
     <span class="font-ktrz">B</span><span>B</span>
     <span class="font-ktrz">C</span><span>C</span>
@@ -136,11 +136,11 @@ layout: home
 
 </div>
 
-<div class="flex-row-reverse cols5:ml-05 cols6:ml-0 cols5:-mr-1 cols6:flex cols6:mt-05">
+<div class="flex-row-reverse cols5:ml-05 cols6:ml-0 cols6:-mr-1 cols6:flex cols6:mt-05">
 
   <h3 class="writing-mode-h-tb h-05 cols4:h-1 cols6:writing-mode-v-rl cols6:w-1 cols6:h-auto text-right cols6:text-left">KTRZ Alternates</h3>
 
-  <div class="glyphs lh-1 grid grid-cols-8 cols3:grid-cols-12 cols4:grid-cols-16 items-end mt-05 cols5:mr-05 cols6:mr-0 cols6:mt-0">
+  <div class="glyphs lh-1 grid grid-cols-8 cols3:grid-cols-12 cols4:grid-cols-16 items-end mt-05 cols5:pr-05 cols6:pr-0 cols6:mt-0">
     <span class="font-ktrz-alt">A</span><span>A</span>
     <span class="font-ktrz-alt">B</span><span>B</span>
     <span class="font-ktrz-alt">C</span><span>C</span>
@@ -201,7 +201,7 @@ layout: home
 
 </div>
 
-<div class="mt-05 cols4:mt-1 cols6:mt-05 cols5:flex cols6:block cols5:-mr-1 cols6:-ml-1">
+<div class="mt-05 cols4:mt-1 cols6:mt-05 cols5:flex cols6:block cols6:-mr-1 cols6:-ml-1">
 
   <h2 class="h-1 w-1 flex-shrink-0">Use Cases</h2>
 
