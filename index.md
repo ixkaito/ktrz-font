@@ -216,7 +216,7 @@ layout: home
 
   <h2 class="w-0.5">Download &amp; Share</h2>
 
-  <ul class="download-share list-none m-0 p-0 grid gap-0.5 cols4:grid-cols-2">
+  <ul class="download-share list-none m-0 p-0 pb-0.5 grid gap-0.5 cols4:grid-cols-2">
     <li data-icon="D">
       <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Download</a>
     </li>
