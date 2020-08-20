@@ -91,6 +91,10 @@
 		font-size: columns(0.5);
 		position: relative;
 
+		@include cols(4) {
+			font-size: columns(1);
+		}
+
 		&:first-child::before {
 			content: 'Tokyo';
 		}
@@ -110,6 +114,12 @@
 			text-align: center;
 			transform: rotate(-45deg);
 			width: columns(0.33);
+
+			@include cols(4) {
+				bottom: columns(0.2);
+				font-size: columns(0.2);
+				width: columns(0.66);
+			}
 		}
 	}
 }

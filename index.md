@@ -12,7 +12,7 @@ layout: home
 
 <h1 class="col5:ml-1 cols6:ml-0">KTRZ Font</h1>
 
-<div class="col4:grid cols4:grid-flow-col cols4:gap-1 cols4:justify-center cols5:ml-1 cols6:ml-0 cols5:-mr-1 cols6:mr-0">
+<div class="cols4:grid cols4:grid-flow-col cols4:gap-1 cols4:justify-center cols5:ml-1 cols6:ml-0 cols5:-mr-1 cols6:mr-0">
 
   <div class="max-w-3 h-2 pt-05" markdown="1">
 
@@ -32,7 +32,7 @@ layout: home
 
 ## KTRZ Font Regulations
 
-<div class="col4:grid cols4:grid-cols-2 cols4:col-gap-1">
+<div class="cols4:grid cols4:grid-cols-2 cols4:col-gap-1">
   <figure class="w-1 h-2">
     <img src="{{ '/assets/images/letter-body.svg' | relative_url }}"
       alt="Letter body"
@@ -201,10 +201,15 @@ layout: home
 
 </div>
 
-<h2 class="mt-05 cols4:mt-1 h-1">Use Cases</h2>
+<div class="mt-05 cols4:mt-1 cols6:mt-05 cols5:flex cols6:block cols5:-mr-1 cols6:-ml-1">
 
-<p class="typography font-ktrz uppercase m-0 lh-1">Typography</p>
+  <h2 class="h-1 w-1 flex-shrink-0">Use Cases</h2>
 
-<p class="tokyo2020 font-ktrz uppercase flex justify-center m-0 mt-05 lh-1"><span>20</span> <span>20</span></p>
+  <div>
+    <p class="typography font-ktrz uppercase m-0 lh-1">Typography</p>
+    <p class="tokyo2020 font-ktrz uppercase flex justify-center m-0 mt-05 lh-1 cols4:mt-1"><span>20</span> <span>20</span></p>
+  </div>
+
+</div>
 
 </main>

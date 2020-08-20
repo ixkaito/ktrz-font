@@ -8,6 +8,10 @@
 	flex-direction: row-reverse;
 }
 
+.flex-shrink-0 {
+	flex-shrink: 0;
+}
+
 .font-ktrz {
 	font-family: $ktrz;
 }
@@ -166,6 +170,10 @@
 
 @include cols(5) {
 	.cols5 {
+		&\:flex {
+			display: flex;
+		}
+
 		&\:ml-05 {
 			margin-left: columns(0.5);
 		}
@@ -194,12 +202,20 @@
 			display: flex;
 		}
 
+		&\:block {
+			display: block;
+		}
+
 		&\:h-auto {
 			height: auto;
 		}
 
 		&\:ml-0 {
 			margin-left: 0;
+		}
+
+		&\:-ml-1 {
+			margin-left: columns(-1);
 		}
 
 		&\:mr-0 {
