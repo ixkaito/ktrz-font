@@ -32,6 +32,10 @@ body {
 
 a {
 	color: inherit;
+
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 h1,
