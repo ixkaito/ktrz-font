@@ -212,7 +212,7 @@ layout: home
 
 </div>
 
-<div class="flex mt-1 cols3:mt-1.5 cols4:mt-1" markdown="1">
+<div class="flex mt-1 cols3:mt-1.5 cols4:mt-1">
 
   <h2 class="w-0.5">Download &amp; Share</h2>
 
@@ -221,16 +221,16 @@ layout: home
       <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Download</a>
     </li>
     <li data-icon="G">
-      <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">GitHub</a>
+      <a class="button" href="https://github.com/ixkaito/ktrz-font" target="_blank" rel="noopener">GitHub</a>
     </li>
     <li data-icon="F">
-      <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Share</a>
+      <a class="button" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}/" target="_blank" rel="noopener">Share</a>
     </li>
     <li data-icon="T">
-      <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Tweet</a>
+      <a class="button" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ site.baseurl }}/&text={{ site.title }}&via={{ site.twitter_username }}" target="_blank" rel="noopener">Tweet</a>
     </li>
     <li data-icon="T">
-      <a class="button" href="https://github.com/ixkaito/ktrz-font/archive/master.zip">Follow</a>
+      <a class="button" href="https://twitter.com/intent/follow?screen_name={{ site.twitter_username }}" target="_blank" rel="noopener">Follow</a>
     </li>
   </ul>
 
