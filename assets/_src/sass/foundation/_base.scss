@@ -95,7 +95,6 @@ figcaption {
 
 .button {
 	background: #000;
-	border: 2px solid #000;
 	color: #fff;
 	display: inline-grid;
 	font-family: $prompt;
@@ -104,6 +103,7 @@ figcaption {
 	font-weight: 700;
 	height: columns(0.5);
 	line-height: 1;
+	mix-blend-mode: difference;
 	overflow: hidden;
 	place-items: center;
 	position: relative;
@@ -112,13 +112,9 @@ figcaption {
 	width: columns(1);
 	word-break: break-all;
 
+	&::before,
 	&::after {
-		background-image:
-			linear-gradient(to right,
-			#000,
-			#000 50%,
-			#fff 50%,
-			#fff);
+		background-position: center;
 		background-size: 200% 100%;
 		bottom: 0;
 		content: '';
@@ -131,7 +127,31 @@ figcaption {
 		transition: background-position 0.3s $ease-out-cubic;
 	}
 
-	&:hover::after {
-		background-position: 0100% 0;
+	&::before {
+		background-image:
+			linear-gradient(-45deg,
+			#fff,
+			#fff 50%,
+			#000 50%,
+			#000);
+	}
+
+	&::after {
+		background-image:
+			linear-gradient(-45deg,
+			#000,
+			#000 50%,
+			#fff 50%,
+			#fff);
+	}
+
+	&:hover {
+		&::before {
+			background-position: 100% 0;
+		}
+
+		&::after {
+			background-position: 0;
+		}
 	}
 }
