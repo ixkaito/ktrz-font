@@ -129,6 +129,10 @@
 		&\:grid-cols-12 {
 			grid-template-columns: repeat(12, minmax(0, 1fr));
 		}
+
+		&\:mt-1\.5 {
+			margin-top: columns(1.5);
+		}
 	}
 }
 

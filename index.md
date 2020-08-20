@@ -212,7 +212,7 @@ layout: home
 
 </div>
 
-<div class="flex mt-1" markdown="1">
+<div class="flex mt-1 cols3:mt-1.5 cols4:mt-1" markdown="1">
 
   <h2 class="w-05">Download &amp; Share</h2>
 
