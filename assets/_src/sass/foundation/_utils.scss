@@ -40,8 +40,16 @@
 	align-items: end;
 }
 
+.justify-center {
+	justify-content: center;
+}
+
 .justify-start {
 	justify-content: flex-start;
+}
+
+.lh-1 {
+	line-height: 1;
 }
 
 .m-0 {
@@ -74,6 +82,10 @@
 
 .text-right {
 	text-align: right;
+}
+
+.uppercase {
+	text-transform: uppercase;
 }
 
 .w-auto {

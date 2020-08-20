@@ -41,7 +41,6 @@
 }
 
 .glyphs {
-	line-height: 1;
 	padding-bottom: columns(0.25);
 	row-gap: columns(0.25);
 
@@ -59,15 +58,10 @@
 }
 
 .typography {
-	font-family: $ktrz;
 	font-size: columns(0.5);
-	font-weight: normal;
-	line-height: 1;
-	margin: 0;
 	margin-right: -0.5em;
 	position: relative;
 	text-indent: columns(1);
-	text-transform: uppercase;
 	word-break: break-all;
 
 	@include cols(4) {
@@ -88,6 +82,34 @@
 
 		@include cols(4) {
 			font-size: columns(0.52);
+		}
+	}
+}
+
+.tokyo2020 {
+	span {
+		font-size: columns(0.5);
+		position: relative;
+
+		&:first-child::before {
+			content: 'Tokyo';
+		}
+
+		&:nth-child(2)::before {
+			content: '2020';
+		}
+
+		&::before {
+			bottom: columns(0.1);
+			color: #fff;
+			font-family: $prompt;
+			font-size: columns(0.1);
+			font-weight: 700;
+			position: absolute;
+			right: 0;
+			text-align: center;
+			transform: rotate(-45deg);
+			width: columns(0.33);
 		}
 	}
 }

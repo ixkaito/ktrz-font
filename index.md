@@ -75,7 +75,7 @@ layout: home
 
   <h2 class="writing-mode-h-tb h-1 cols6:writing-mode-v-rl w-auto cols6:w-1 text-right cols6:text-left">Glyphs</h2>
 
-  <div class="glyphs grid grid-cols-8 cols3:grid-cols-12 cols4:grid-cols-16 items-end cols5:mr-05 cols6:mr-0 mt-05 cols6:mt-0">
+  <div class="glyphs lh-1 grid grid-cols-8 cols3:grid-cols-12 cols4:grid-cols-16 items-end cols5:mr-05 cols6:mr-0 mt-05 cols6:mt-0">
     <span class="font-ktrz">A</span><span>A</span>
     <span class="font-ktrz">B</span><span>B</span>
     <span class="font-ktrz">C</span><span>C</span>
@@ -140,7 +140,7 @@ layout: home
 
   <h3 class="writing-mode-h-tb h-05 cols4:h-1 cols6:writing-mode-v-rl cols6:w-1 cols6:h-auto text-right cols6:text-left">KTRZ Alternates</h3>
 
-  <div class="glyphs grid grid-cols-8 cols3:grid-cols-12 cols4:grid-cols-16 items-end mt-05 cols5:mr-05 cols6:mr-0 cols6:mt-0">
+  <div class="glyphs lh-1 grid grid-cols-8 cols3:grid-cols-12 cols4:grid-cols-16 items-end mt-05 cols5:mr-05 cols6:mr-0 cols6:mt-0">
     <span class="font-ktrz-alt">A</span><span>A</span>
     <span class="font-ktrz-alt">B</span><span>B</span>
     <span class="font-ktrz-alt">C</span><span>C</span>
@@ -203,10 +203,8 @@ layout: home
 
 <h2 class="mt-05 cols4:mt-1 h-1">Use Cases</h2>
 
-<p class="typography">Typography</p>
+<p class="typography font-ktrz uppercase m-0 lh-1">Typography</p>
 
-<figure class="mt-05">
-  <img src="{{ 'assets/images/2020.svg' | relative_url }}" alt="Typography">
-</figure>
+<p class="tokyo2020 font-ktrz uppercase flex justify-center m-0 mt-05 lh-1"><span>20</span> <span>20</span></p>
 
 </main>
