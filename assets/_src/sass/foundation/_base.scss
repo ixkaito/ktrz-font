@@ -45,8 +45,8 @@ a {
 h1,
 h2,
 h3 {
-	align-items: end;
-	display: grid;
+	align-items: flex-end;
+	display: flex;
 	font-weight: 700;
 	line-height: 0.65;
 	margin: 0;
