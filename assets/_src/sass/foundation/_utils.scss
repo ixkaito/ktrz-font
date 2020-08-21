@@ -88,16 +88,16 @@
 	max-width: columns(3);
 }
 
+.none {
+	display: none;
+}
+
 .p-0 {
 	padding: 0;
 }
 
 .pb-0\.5 {
 	padding-bottom: columns(0.5);
-}
-
-.pl-0\.5 {
-	padding-left: columns(0.5);
 }
 
 .pt-0\.5 {
@@ -197,6 +197,10 @@
 		&\:mt-1 {
 			margin-top: columns(1);
 		}
+
+		&\:pl-0\.5 {
+			padding-left: columns(0.5);
+		}
 	}
 }
 
@@ -290,6 +294,10 @@
 
 @include cols(8) {
 	.cols8 {
+		&\:block {
+			display: block;
+		}
+
 		&\:mt-0 {
 			margin-top: 0;
 		}
