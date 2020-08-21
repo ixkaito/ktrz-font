@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<header class="hero" data-lorem="loremipsumdolorsitametco" markdown="1">
+<header id="hero" class="hero" data-lorem="loremipsumdolorsitametco" markdown="1">
 
 # KTRZ Font
 
