@@ -7,6 +7,7 @@ const lorem = (length) => {
   ).join('');
 };
 
+hero.dataset.lorem = lorem(24);
 setInterval(() => {
   hero.dataset.lorem = lorem(24);
 }, 3000);
