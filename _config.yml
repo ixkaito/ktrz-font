@@ -23,8 +23,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   KTRZ is a free minimal geometric font family. Great for typography, symbols, decorations, backgrounds, minimal designs and fancy stuff.
 baseurl: "/ktrz-font" # the subpath of your site, e.g. /blog
 url: "https://ixkaito.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ixkaito
-github_username:  ixkaito
+twitter:
+  username: ixkaito
+  card: summary_large_image
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og.png
+
 
 # Build settings
 # theme: minima
