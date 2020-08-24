@@ -67,3 +67,4 @@ exclude:
   - webpack.config.js
   - yarn.lock
   - assets/_src/
+  - tsconfig.json

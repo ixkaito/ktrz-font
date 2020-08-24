@@ -1,6 +1,6 @@
-const hero = document.querySelector('#hero');
+const hero = document.querySelector("#hero") as HTMLElement;
 
-const lorem = (length) => {
+const lorem = (length: number) => {
   const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
   return Array.from(Array(length)).map(
     () => chars[Math.floor(Math.random() * chars.length)]
